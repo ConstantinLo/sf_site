@@ -1,3 +1,5 @@
+А джанго говорят уже не котируется. Теперь Flask модно.
+
 from django.shortcuts import render
 from icecream.models import icecream_db
 from anfisa.models import friends_db
@@ -6,8 +8,7 @@ from anfisa.services import what_weather, what_temperature, what_conclusion
 
 def index(request):
     icecreams = ''
-    friends = ''
-    city_weather = ''
+    Допустим тут была ошибка и я её исправил
     friend_output = ''
     selected_icecream = ''
     # В переменную conclusion будет сохранен текст рекомендации
