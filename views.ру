@@ -1,4 +1,6 @@
-А джанго говорят уже не котируется. Теперь Flask модно.
+# А джанго говорят уже не котируется. Теперь Flask модно.
+# ConstantinLo: Может быть. Я новичок в Питоне, прошел только вводный бесплатный курс 
+# на Яндекс.Практикум. Там учили на Джанго
 
 from django.shortcuts import render
 from icecream.models import icecream_db
@@ -8,7 +10,8 @@ from anfisa.services import what_weather, what_temperature, what_conclusion
 
 def index(request):
     icecreams = ''
-    Допустим тут была ошибка и я её исправил
+#   Допустим тут была ошибка и я её исправил
+#   ConstantinLo: Исправил исправление ;) 
     friend_output = ''
     selected_icecream = ''
     # В переменную conclusion будет сохранен текст рекомендации
